@@ -214,10 +214,10 @@ final_val_mae = val_mae[-1]
 print("Final Validation RMSE:", final_val_rmse)
 print("Final Validation MAE:", final_val_mae)
 
-plt.plot(history.history['root_mean_squared_error'])
-plt.plot(history.history['val_root_mean_squared_error'])
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
 plt.title('model_metrics')
-plt.ylabel('root_mean_squared_error')
+plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
 plt.show()
