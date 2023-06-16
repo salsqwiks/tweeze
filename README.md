@@ -24,3 +24,6 @@ Submitted as capstone project
 5. Google Cloud Platform
 6. Google Colab Pro
 7. Google Script
+
+# Mobile App Data
+The mobile app is available in the master branch.
