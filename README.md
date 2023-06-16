@@ -26,4 +26,4 @@ Submitted as capstone project
 7. Google Script
 
 # Mobile App Data
-The mobile app is available in the "**app**" branch.
+The mobile app is available in the "**master**" branch.
