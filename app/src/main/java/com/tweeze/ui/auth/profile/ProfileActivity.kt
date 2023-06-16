@@ -22,6 +22,11 @@ class ProfileActivity : AppCompatActivity() {
         binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val toolbar = binding.toolbar
+        toolbar.title = "Detail"
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         // Firebase Authentications
         auth = Firebase.auth
 
